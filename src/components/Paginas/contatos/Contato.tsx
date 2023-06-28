@@ -1,9 +1,8 @@
-import React from "react";
+
 import './Contato.css'
 import Grid from "@mui/material/Grid";
 import Box from "@mui/material/Box";
 import { Swiper } from 'swiper/react';
-
 import {SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -23,7 +22,7 @@ function Contatos(){
       <Grid className="modal" xs={12}>
               <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <Swiper
-        slidesPerView={4}
+        slidesPerView={3}
         spaceBetween={0}
         freeMode={true}
         pagination={{
@@ -41,8 +40,10 @@ function Contatos(){
                  </p>
                 
                     <div className='redesC'> 
-                    <a href="https://github.com/WilliamReisO" target="_blank" rel="noopener noreferrer"><i className="fa fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/William-Reis-O/"><i className="fa fa-linkedin"></i></a>
+                    <a href="https://github.com/WilliamReisO" target="_blank" rel="noopener noreferrer"><i className="fa fa-github tamanho " ></i></a>
+                    <a href="https://www.linkedin.com/in/William-Reis-O/"target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin tamanho"></i></a>
+                    <a href="https://drive.google.com/file/d/1RVyhR5gf0tCdkfk7e0UIMBB0Q4Nmh6Qe/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i className="fa fa-inbox 
+                    tamanho"></i></a>
                     </div> 
             </Box>
         </Grid>
@@ -54,8 +55,9 @@ function Contatos(){
                 <h3> Vitor Santos </h3>
                  <p className="title">Participante</p>
                     <div className='redesC'> 
-                    <a href="https://www.linkedin.com/in/vitor-santos235/"><i className="fa fa-linkedin"></i></a>
-                    <a href="sr.santos235@gmail.com"><i className="fa fa-gmail"></i></a>
+                    <a href="https://www.linkedin.com/in/vitor-santos235/"target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin tamanho"></i></a>
+                    <a href="https://drive.google.com/file/d/1mb8WETAf4yg9VjZtKYNz4yblBBF9RlRO/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i className="fa fa-inbox 
+                    tamanho"></i></a>
                     </div> 
             </Box>
         </Grid>
@@ -67,8 +69,9 @@ function Contatos(){
                 <h3> Patricia </h3>
                  <p className="title">Participante</p>
                     <div className='redesC'> 
-                    <a href="https://www.linkedin.com/in/cavalcantepatricia"><i className="fa fa-linkedin"></i></a>
-                    <a href="cavalcantepatricia31@gmail.com"><i className="fa fa-gmail"></i></a>
+                    <a href="https://www.linkedin.com/in/cavalcantepatricia"target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin tamanho"></i></a>
+                    <a href="https://drive.google.com/file/d/1EfH4dod9gKqDPoWy4DsfIAwCYFKD84pL/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i className="fa fa-inbox 
+                    tamanho"></i></a>
                     </div> 
             </Box>
         </Grid>
@@ -80,8 +83,10 @@ function Contatos(){
                     <h3> Thiago </h3>
                  <p className="title">Participante</p>
                     <div className='redesC'> 
-                    <a href="https://www.linkedin.com/in/thiago-augusto-6b5b90218/"><i className="fa fa-linkedin"></i></a>
-                    <a href="https://www.cavalcantepatricia31@gmail.com"><i className="fa fa-gmail"></i></a>
+                    <a href="https://www.linkedin.com/in/thiago-augusto-6b5b90218/"target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin 
+                    tamanho"></i></a>
+                    <a href="https://drive.google.com/file/d/1ugB8ers6lKMJO07QYhWGijGWZAMmYiVt/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i className="fa fa-inbox 
+                    tamanho"></i></a>
                     </div> 
             </Box>
         </Grid>

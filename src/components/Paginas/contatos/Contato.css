@@ -1,0 +1,66 @@
+.modal {
+  margin-top: 100px !important;
+  width: 1300px;
+  height: 600px;
+  border-radius: 20px;
+  background: rgba(217, 217, 217, 0.285);
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Lista {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+}
+.card {
+  border-radius: 50px !important;
+  background: #0077b6 !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.548);
+  width: 340px !important;
+  height: 420px !important;
+  text-align: center !important;
+  margin-bottom: 20px !important;
+}
+.title {
+  color: rgb(11, 11, 11);
+  font-size: 18px;
+  padding: 10px;
+  margin-top: 10px;
+}
+h3 {
+  margin-top: 20px;
+}
+
+.tamanho{
+  text-decoration: none;
+  font-size: 40px !important;
+  color: black;
+}
+
+.botao:hover,
+a:hover {
+  opacity: 0.8;
+}
+
+.criador1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px !important;
+  width: 180px !important;
+  height: 170px !important;
+  border-radius: 180px !important;
+  margin-left: 100px !important;
+}
+
+.redesC {
+  margin-top: 10px;
+  gap: 1em;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+

@@ -1,1 +1,36 @@
+.outlinedButton {
+  border-color: #7ca6c06d !important;
+  color: #ffffffb4 !important;
+  background-color: #7ca6c06d !important;
+  padding: 10px !important;
+}
+.outlinedButton:hover {
+  border-color: #7ca6c06d !important;
+  color: #ffffffb4 !important;
+  background-color: #7ca6c06d !important;
+}
+.cursor {
+  cursor: pointer;
+}
+.img {
+  padding: 1vh;
+  
+}
+.nome{
+  margin-left: 13vh !important;
+  color: whitesmoke;
+}
+.navbar {
+  align-self: flex-end;
+  position: relative;
+}
+
+.menu-nav {
+  display: flex;
+  
+}
+.nav-estrutura{
+  display: flex;
+  justify-content:space-between;
+  background-color: #ffffff00
 }
