@@ -4,7 +4,8 @@ import Grid from "@mui/material/Grid";
 import Box from "@mui/material/Box";
 import { } from 'swiper/react';
 import {SwiperSlide , Swiper } from "swiper/react";
-
+import "swiper/css";
+import "swiper/css/pagination";
 function Contatos(){
     return(
         < >

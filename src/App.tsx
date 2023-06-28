@@ -27,7 +27,7 @@ function App() {
             </Routes>
           </div>
         </Router>
-        <Grid className='footer' xs={12}>
+        <Grid className='footer'>
           <Typography id='assina'>
             Feito por : 
               William Reis 

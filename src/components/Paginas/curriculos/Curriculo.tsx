@@ -1,6 +1,13 @@
 import { Box, Grid, Typography } from '@mui/material';
-import "./curriculo.css"
+import "./Curriculo.css"
+
+// Import Swiper React components
 import {Swiper, SwiperSlide} from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+
 
  function Curriculo() {
   return (
@@ -11,7 +18,6 @@ import {Swiper, SwiperSlide} from "swiper/react";
        
       <Grid className="rectangle-22">
       <Swiper
-        spaceBetween={0}
         className="mySwiper swiper1"
       >
         <SwiperSlide ><a href="https://drive.google.com/file/d/1ugB8ers6lKMJO07QYhWGijGWZAMmYiVt/view?usp=sharing"
