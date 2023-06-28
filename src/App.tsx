@@ -3,7 +3,7 @@ import './App.css'
 import Contatos from './components/Paginas/contatos/Contato';
 import Curriculo from './components/Paginas/curriculos/Curriculo';
 import Inicial from './components/Paginas/home/Home';
-import { Box, Grid, Typography } from '@mui/material';
+import { Grid, Typography } from '@mui/material';
 import NavBar from './components/Estaticos/navbar/Navbar';
 
 
