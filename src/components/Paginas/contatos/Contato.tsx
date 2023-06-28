@@ -19,7 +19,10 @@ function Contatos(){
 <Grid className="fundo">
     <Grid className='Lista'>
     
-      <Grid className="modal" xs={12}>
+      <Grid className="modal" xs={12}><link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+            />
               <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <Swiper
         slidesPerView={3}
@@ -94,6 +97,7 @@ function Contatos(){
         </Swiper>      
     </Grid>
     </Grid>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 </Grid>
         </>
     )
