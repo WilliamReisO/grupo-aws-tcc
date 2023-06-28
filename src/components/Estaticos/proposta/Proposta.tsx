@@ -1,4 +1,4 @@
-import { Box, Grid} from "@mui/material";
+import {Grid} from "@mui/material";
 import "./Proposta.css"
 
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -10,34 +10,39 @@ import "swiper/css/navigation";
 
 
 // import required modules
-import { Pagination, Navigation, HashNavigation } from "swiper";
+import {  Autoplay,Pagination, Navigation, HashNavigation } from "swiper";
 
 function Proposta(){
-    return(
-        <>
+  return (
+    <>
+      <Grid 
+      className="espaso">
+        <Swiper
+          spaceBetween={0}
+          centeredSlides={true}
+          autoplay={{
+            delay: 4000,
+            disableOnInteraction: false,
+          }}
+          pagination={{
+            clickable: true,
+          }}
+          navigation={true}
+          modules={[Autoplay, Pagination, Navigation , HashNavigation]}
+          className="mySwiper"
+        >
+          <SwiperSlide data-hash="slide1"><img src="https://sea.com.uy/wp-content/uploads/2020/01/pancs.jpg" alt="" /></SwiperSlide>
+          <SwiperSlide data-hash="slide2"><img src="https://phitoss.com.br/wp-content/uploads/2020/10/01-pancs.jpg" alt="" /></SwiperSlide>
 
-        <Grid className="fundo">
-            <Box className="rectangle-2">
-            <Swiper
-        spaceBetween={0}
-        hashNavigation={{
-          watchState: true,
-        }}
-        pagination={{
-          clickable: true,
-        }}
-        navigation={true}
-        modules={[Pagination, Navigation, HashNavigation]}
-        className="mySwiper"
-      >
-        <SwiperSlide data-hash="slide1"><img src="https://source.unsplash.com/random/600x600/?cat" alt="noite img"/></SwiperSlide>
-        <SwiperSlide data-hash="slide2"><img src="https://source.unsplash.com/random/600x600/?dog" alt="noite img"/></SwiperSlide>
-        <SwiperSlide data-hash="slide3"><img src="https://source.unsplash.com/random/600x600/?night" alt="noite img"/></SwiperSlide>
-      </Swiper>
-      </Box>
+          <SwiperSlide data-hash="slide3"><img src="https://phitoss.com.br/wp-content/uploads/2020/10/02-pancs.jpg" alt="" /></SwiperSlide>
+
+          <SwiperSlide data-hash="slide4"><img src="https://phitoss.com.br/wp-content/uploads/2020/10/04-pancs.jpg" alt="" /></SwiperSlide>
+
+          <SwiperSlide data-hash="slide5"><img src="https://phitoss.com.br/wp-content/uploads/2020/10/07-pancs.jpg" alt="" /></SwiperSlide>
+
+        </Swiper>
       </Grid>
-            
-        </>
-    )
+    </>
+  );
 }
 export default Proposta;

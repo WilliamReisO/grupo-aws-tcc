@@ -1,49 +1,39 @@
 .modal{
-    width: 1262px;
-    height: 700px;
+    margin-top: 100px !important;
+    width: 1300px;
+    height: 600px;
     flex-shrink: 0;
     border-radius: 20px;
-    background: rgba(217, 217, 217, 0.86);
+    background:rgba(217, 217, 217, 0.285);
     flex-direction: row;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .Lista{
-  margin-top: 3% !important;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('/src/assets/963698.jpg');
     width: auto;
-    height: 100vh;
+    height: 80vh;
     background-size: cover;
     background-position:center;
+    
 }
 .card {
-    border-radius: 20px;
-    background: #a2d2ff;
+    border-radius: 80px;
+    background: #3d8361b7;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.548);
-    width: 280px;
-    height: 400px;
+    width: 290px;
+    height: 430px;
     text-align: center; 
-    margin: 10px !important;
 }
 .title {
-    color: rgb(92, 91, 91);
+    color: rgb(11, 11, 11);
     font-size: 18px;
-    padding: 7px; 
+    padding: 10px; 
     margin-top: 10px ;
 }
-.botao {
-    text-decoration: none ;
-    color: white !important;
-    background-color: #457b9d !important;
-    text-align: center;
-    cursor: pointer;
-    width: 50%;
-    font-size: 18px;
-  }
   h3{
     margin-top: 30px;
   }
@@ -59,7 +49,7 @@
   }
   
   .rectangle-4{
-    width: 234px;
+width: 234px;
 height: 86px;
 flex-shrink: 0;
 background: #D9D9D9;
@@ -71,7 +61,7 @@ background: #D9D9D9;
     height: 167px;
     flex-shrink: 0;
     border-radius: 180px;
-    background: #d9d9d9d0;
+    background: #bfa7a7d0;
     margin-bottom: 12px !important;
 }
 .redesC{
@@ -98,3 +88,4 @@ background: #D9D9D9;
     font-family: 'Inter', sans-serif !important;
     color: black;
 }
+
