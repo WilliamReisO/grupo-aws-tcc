@@ -1,7 +1,7 @@
 
 .modal {
-  margin-top: 180px;
-  width: 1300px;
+  margin-top: 100px;
+  width: 1200px;
   height: 600px;
   border-radius: 20px;
   background: rgba(217, 217, 217, 0.285);
@@ -23,6 +23,7 @@
   height: 420px ;
   text-align: center ;
   margin-bottom: 20px ;
+  margin-left: 20px;
 }
 .title {
   color: rgb(11, 11, 11);
