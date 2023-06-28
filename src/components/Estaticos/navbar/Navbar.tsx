@@ -18,14 +18,6 @@ function NavBar() {
             </Box>
             <Box className='menu-nav' >
                 <Box mx={1} className='cursor'>
-                    <Typography variant="h6" color="inherit">
-                        <Link to="/inicial" >
-                            <Button variant='outlined' className='outlinedButton'> 
-                            Inicio </Button>
-                        </Link>
-                        </Typography>
-                </Box>
-                <Box mx={1} className='cursor'>
                 <Typography variant="h6" color="inherit">
                     <Link to="/contatos">
                     <Button variant='outlined' className='outlinedButton'>

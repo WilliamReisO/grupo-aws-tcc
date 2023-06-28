@@ -1,4 +1,4 @@
-import { Box, Grid} from "@mui/material";
+import { Box, Grid, Typography } from '@mui/material';
 import "./curriculo.css"
 
 // Import Swiper React components
@@ -15,6 +15,7 @@ import { Pagination } from "swiper";
  function Curriculo() {
   return (
     <>
+    <Grid className="fundocv">
       <Box className="tituloc">Currículos</Box>
       <Grid>
        
@@ -42,8 +43,11 @@ import { Pagination } from "swiper";
         </SwiperSlide>
      </Swiper>
       </Grid>
+      <Box className="indica"><Typography className='txt'>
+        Click Sobre o Curriculo melhor visualização 
+        </Typography></Box>
       </Grid>
-
+     </Grid>
     </>
   );
 }

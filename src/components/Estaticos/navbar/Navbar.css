@@ -2,7 +2,8 @@
   border-color: #7ca6c06d !important;
   color: #ffffffb4 !important;
   background-color: #7ca6c06d !important;
-  padding: 10px !important;
+  font-size: 15px !important;
+  font-family:'Courier New', Courier, monospace !important;
 }
 .outlinedButton:hover {
   border-color: #7ca6c06d !important;
@@ -19,6 +20,7 @@
 .nome{
   margin-left: 13vh !important;
   color: whitesmoke;
+  font-family:'Times New Roman', Times, serif !important;
 }
 .navbar {
   align-self: flex-end;
@@ -27,6 +29,7 @@
 
 .menu-nav {
   display: flex;
+  margin-top: 5px;
   
 }
 .nav-estrutura{

@@ -3,9 +3,8 @@ import './App.css'
 import Contatos from './components/Paginas/contatos/Contato';
 import Curriculo from './components/Paginas/curriculos/Curriculo';
 import Inicial from './components/Paginas/home/Home';
-import { Grid } from '@mui/material';
+import { Box, Grid, Typography } from '@mui/material';
 import NavBar from './components/Estaticos/navbar/Navbar';
-import Footer from './components/Estaticos/footer/Footer';
 
 
 
@@ -21,8 +20,6 @@ function App() {
             <Routes>
               <Route path="/contatos" element=
                 {<Contatos />} />
-              <Route path="/inicial" element=
-                {<Inicial />} />
               <Route path="/" element=
                 {<Inicial />} />
               <Route path="/curriculo" element=
@@ -30,6 +27,12 @@ function App() {
             </Routes>
           </div>
         </Router>
+        <Grid className='footer' xs={12}>
+          <Typography id='assina'>
+            Feito por : 
+              William Reis 
+          </Typography>
+        </Grid>
       </Grid>
     </>
   )

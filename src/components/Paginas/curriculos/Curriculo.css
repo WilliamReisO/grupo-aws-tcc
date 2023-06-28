@@ -1,31 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,800&display=swap');
-
-@media (max-width: 700px) {
-  .row{   
-    flex-direction: column;
-  }
-}
 .rectangle-22{
+margin-top: 80px;
 width: 700px;
-height: 800px;
+height: 740px;
 flex-shrink: 0;
 border-radius: 10px;
 background: #ffffff53 !important;
 display: flex;
 align-items: center;
 justify-content: center;
-margin-left: 25% !important;
 }
 
 .tituloc{
   color: #ffffff;
-  font-family:'Exo 2', sans-serif 300;
+  font-family:'Times New Roman', Times, serif !important;
   display: flex;
   justify-content: center;
-  font-size: 50px  !important;
-  margin-top: 50px !important;
+  font-size: 50px ;
 }
-
+.fundocv{
+  background-color: #0093E9 !important;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+  background-size:100%  !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column !important;
+}
 .swiper1 {
   width: 600px !important;
   height: 700px !important;
@@ -38,11 +38,29 @@ margin-left: 25% !important;
   justify-content: center;
   align-items: center;
 }
-
+.indica{
+  margin-top: 30px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+}
+.txt{
+  font-family:'Times New Roman', Times, serif !important;
+  font-size: 28px !important;
+  color: #ffffff;
+}
 .swiper-slide img {
-  margin-left: 10% !important;
   align-items: center;
   width: 80%;
   height: 100%;
   object-fit: cover;
+}
+@media screen and (max-width: 992px) {
+.rectangle-22{
+  width: 600px;
+  height: 730px;
+  margin-left: 2% ;
+}
+
 }

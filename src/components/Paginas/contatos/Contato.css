@@ -1,10 +1,10 @@
+
 .modal {
-  margin-top: 100px !important;
+  margin-top: 180px;
   width: 1300px;
   height: 600px;
   border-radius: 20px;
   background: rgba(217, 217, 217, 0.285);
-  flex-direction: row;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -17,26 +17,22 @@
 }
 .card {
   border-radius: 50px !important;
-  background: #0077b6 !important;
+  background: #08496c87 !important;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.548);
-  width: 340px !important;
-  height: 420px !important;
-  text-align: center !important;
-  margin-bottom: 20px !important;
+  width: 230px;
+  height: 420px ;
+  text-align: center ;
+  margin-bottom: 20px ;
 }
 .title {
   color: rgb(11, 11, 11);
   font-size: 18px;
-  padding: 10px;
   margin-top: 10px;
-}
-h3 {
-  margin-top: 20px;
 }
 
 .tamanho{
   text-decoration: none;
-  font-size: 40px !important;
+  font-size: 30px !important;
   color: black;
 }
 
@@ -46,21 +42,35 @@ a:hover {
 }
 
 .criador1 {
-  display: flex;
-  justify-content: center;
   align-items: center;
-  margin-top: 50px !important;
-  width: 180px !important;
-  height: 170px !important;
-  border-radius: 180px !important;
-  margin-left: 100px !important;
+  margin-top: 50px ;
+  width: 180px ;
+  height: 170px ;
+  border-radius: 180px ;
 }
 
 .redesC {
-  margin-top: 10px;
+  margin-top: 8px;
   gap: 1em;
   display: flex;
   justify-content: center;
   margin-bottom: 8px;
 }
+
+
+@media screen and (max-width: 992px) {
+  .tamanho {
+    font-size: 30px !important;
+  }
+
+  .modal{
+    width: 750px;
+    height: 700px;
+    margin-left: 10px;
+  }
+  .card{
+    margin-left: 15px;
+  }
+}
+
 

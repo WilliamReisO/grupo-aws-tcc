@@ -1,18 +1,7 @@
 *{
     margin-left: 0px;
 }
-.participantes{
-  margin-top: 3% !important;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  padding: 15px;
-  font-size: 35px;
-  color: #000000;
-
-}
 .pagina{
-    background-color: #a8dadc !important;
     margin-top: 100px;
     width: 100%;
     align-items: center;

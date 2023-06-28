@@ -15,15 +15,15 @@ import { FreeMode, Pagination } from "swiper";
 
 function Contatos(){
     return(
-        <>
-
+        < >
+<Grid className="fundo">
     <Grid className='Lista'>
     
       <Grid className="modal" xs={12}>
               <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <Swiper
         slidesPerView={3}
-        spaceBetween={0}
+        spaceBetween={2}
         freeMode={true}
         pagination={{
           clickable: true,
@@ -94,6 +94,7 @@ function Contatos(){
         </Swiper>      
     </Grid>
     </Grid>
+</Grid>
         </>
     )
 }
