@@ -29,8 +29,7 @@ function App() {
         </Router>
         <Grid className='footer'>
           <Typography id='assina'>
-            Feito por : 
-              William Reis 
+            Feito por :  William Reis 
           </Typography>
         </Grid>
       </Grid>

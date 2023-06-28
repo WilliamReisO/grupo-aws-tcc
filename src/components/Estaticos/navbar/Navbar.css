@@ -32,8 +32,14 @@
   margin-top: 5px;
   
 }
+
 .nav-estrutura{
   display: flex;
   justify-content:space-between;
   background-color: #ffffff00
+}
+@media screen and (max-width: 992px) {
+  .nome{
+    margin-left: 1vh !important;
+}
 }

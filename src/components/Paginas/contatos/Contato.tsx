@@ -42,7 +42,7 @@ function Contatos(){
         <SwiperSlide>
         <Grid className="card">
             <Box>
-                <img src="/src/assets/114ee253-ab14-46e8-bb12-238f3ac6857a.jpg" alt="Foto vitor"  className='criador1' />
+                <img src="https://media.licdn.com/dms/image/C4D03AQGNtM5iTTxfsA/profile-displayphoto-shrink_800_800/0/1557242571347?e=1693440000&v=beta&t=Sgg3Zj5ucKRzZdnlp1Fbe9NpjuTAGgRhAY2AOLWEe1o" alt="Foto vitor"  className='criador1' />
                 <h3> Vitor Santos </h3>
                  <p className="title">Participante</p>
                     <div className='redesC'> 
@@ -56,7 +56,7 @@ function Contatos(){
         <SwiperSlide>   
         <Grid className="card">
             <Box>
-            <img src="/src/assets/351454242_228266949980491_1800561240974425244_n.jpg " className='criador1' />
+            <img src="https://media.licdn.com/dms/image/D4D03AQEFvFSnQq_v2Q/profile-displayphoto-shrink_800_800/0/1681165091986?e=1693440000&v=beta&t=C2H-dCC0Aq9ltmJFGOZV-sjqqa_ND1dHXufK7aqBrH4" className='criador1' />
                 <h3> Patricia </h3>
                  <p className="title">Participante</p>
                     <div className='redesC'> 
@@ -70,7 +70,7 @@ function Contatos(){
         <SwiperSlide>
         <Grid className="card">
             <Box>
-            <img src="/src/assets/978d9ed6-1f43-4214-977b-da64d802b7b2.jpg" alt="foto do thiago" className='criador1' />
+            <img src="https://media.licdn.com/dms/image/C5603AQEadZEkD6OMhQ/profile-displayphoto-shrink_800_800/0/1632088379848?e=1693440000&v=beta&t=q6luWrWnEqFLWzhl5FM3lVGo9V-QKvpdHXx75tVImRg" className='criador1' />
                     <h3> Thiago </h3>
                  <p className="title">Participante</p>
                     <div className='redesC'> 

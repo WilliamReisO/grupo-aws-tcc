@@ -16,14 +16,13 @@
   width: auto;
 }
 .card {
-  border-radius: 50px !important;
+  border-radius: 30px !important;
   background: #08496c87 !important;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.548);
   width: 270px;
   height: 420px ;
   text-align: center ;
   margin-bottom: 20px ;
-  margin-left: 30px;
 }
 .title {
   color: rgb(11, 11, 11);
@@ -65,13 +64,50 @@ a:hover {
   }
 
   .modal{
-    width: 750px;
-    height: 700px;
+    width: 580px;
+    height: 500px;
     margin-left: 10px;
   }
-  .card{
-    margin-left: 15px;
+  .card {
+    width: 190px;
+    height: 350px ;
+    text-align: center ;
+    margin-bottom: 20px ;
+    margin-left: 10px;
   }
+  .title {
+    color: rgb(11, 11, 11);
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .tamanho{
+    text-decoration: none;
+    font-size: 20px !important;
+    color: black;
+  }
+  
+  .botao:hover,
+  a:hover {
+    opacity: 0.8;
+  }
+  
+  .criador1 {
+    align-items: center;
+    margin-top: 50px ;
+    width: 80px ;
+    height: 70px ;
+    border-radius: 20px ;
+  }
+  
+  .redesC {
+    margin-top: 8px;
+    gap: 1em;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8px;
+  }
+  
 }
 
 
