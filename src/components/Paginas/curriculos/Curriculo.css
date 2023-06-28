@@ -1,7 +1,7 @@
 .rectangle-22{
 margin-top: 80px;
-width: 700px;
-height: 740px;
+width: 490px;
+height: 640px;
 flex-shrink: 0;
 border-radius: 10px;
 background: #ffffff53 !important;
@@ -58,9 +58,10 @@ justify-content: center;
 }
 @media screen and (max-width: 992px) {
 .rectangle-22{
-  width: 600px;
-  height: 730px;
+  width: 510px;
+  height: 710px;
   margin-left: 2% ;
+  margin-top: 20px;
 }
 
 }
