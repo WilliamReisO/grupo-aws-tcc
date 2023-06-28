@@ -2,8 +2,8 @@
 import './Contato.css'
 import Grid from "@mui/material/Grid";
 import Box from "@mui/material/Box";
-import { Swiper } from 'swiper/react';
-import {SwiperSlide } from "swiper/react";
+import { } from 'swiper/react';
+import {SwiperSlide , Swiper } from "swiper/react";
 
 // Import Swiper styles
 import "swiper/css";
@@ -11,7 +11,6 @@ import "swiper/css/free-mode";
 import "swiper/css/pagination";
 
 // import required modules
-import { FreeMode, Pagination } from "swiper";
 
 function Contatos(){
     return(
@@ -23,15 +22,10 @@ function Contatos(){
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
             />
-              <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <Swiper
         slidesPerView={3}
         spaceBetween={2}
-        freeMode={true}
-        pagination={{
-          clickable: true,
-        }}
-        modules={[FreeMode, Pagination]}
         className="mySwiper"
       >
         <SwiperSlide>

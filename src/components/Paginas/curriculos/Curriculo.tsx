@@ -1,13 +1,9 @@
 import { Box, Grid, Typography } from '@mui/material';
 import "./curriculo.css"
+import {Swiper, SwiperSlide} from "swiper/react";
 
-// Import Swiper React components
-import {Swiper, SwiperSlide} from "swiper";
 
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/pagination";
-import {pagination} from "swiper";
+
 
  function Curriculo() {
   return (
@@ -18,12 +14,7 @@ import {pagination} from "swiper";
        
       <Grid className="rectangle-22">
       <Swiper
-        modules={[pagination]}
         spaceBetween={0}
-        pagination={{
-          clickable: true,
-        }}
-        
         className="mySwiper swiper1"
       >
         <SwiperSlide ><a href="https://drive.google.com/file/d/1ugB8ers6lKMJO07QYhWGijGWZAMmYiVt/view?usp=sharing"
