@@ -2,9 +2,6 @@ import { Box, Grid, Typography } from '@mui/material';
 import "./curriculo.css"
 import {Swiper, SwiperSlide} from "swiper/react";
 
-
-
-
  function Curriculo() {
   return (
     <>

@@ -5,13 +5,6 @@ import Box from "@mui/material/Box";
 import { } from 'swiper/react';
 import {SwiperSlide , Swiper } from "swiper/react";
 
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/free-mode";
-import "swiper/css/pagination";
-
-// import required modules
-
 function Contatos(){
     return(
         < >
