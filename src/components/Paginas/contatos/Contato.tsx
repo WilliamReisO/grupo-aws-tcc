@@ -27,7 +27,7 @@ function Contatos(){
             <Box>
                 <img src="https://avatars.githubusercontent.com/u/123428616?v=4" alt="foto william" className='criador1' />
                 <h3> William Reis </h3>
-                 <p className="title">Participante
+                 <p className="title">Desenvolvedor Java
                  </p>
                 
                     <div className='redesC'> 
