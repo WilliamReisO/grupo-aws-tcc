@@ -25,7 +25,7 @@ function Contatos(){
         <SwiperSlide>
             <Grid className="card">
             <Box>
-                <img src="https://avatars.githubusercontent.com/u/123428616?v=4" alt="Link para o github do William" className='criador1' />
+                <img src="https://avatars.githubusercontent.com/u/123428616?v=4" alt="foto william" className='criador1' />
                 <h3> William Reis </h3>
                  <p className="title">Participante
                  </p>
@@ -42,9 +42,9 @@ function Contatos(){
         <SwiperSlide>
         <Grid className="card">
             <Box>
-                <img src="https://media.licdn.com/dms/image/C4D03AQGNtM5iTTxfsA/profile-displayphoto-shrink_800_800/0/1557242571347?e=1693440000&v=beta&t=Sgg3Zj5ucKRzZdnlp1Fbe9NpjuTAGgRhAY2AOLWEe1o" alt="Foto vitor"  className='criador1' />
+                <img src="img/foto-Vitor.jpg" alt="Foto vitor"  className='criador1' />
                 <h3> Vitor Santos </h3>
-                 <p className="title">Participante</p>
+                 <p className="title">Analista de suporte de TI</p>
                     <div className='redesC'> 
                     <a href="https://www.linkedin.com/in/vitor-santos235/"target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin tamanho"></i></a>
                     <a href="https://drive.google.com/file/d/1mb8WETAf4yg9VjZtKYNz4yblBBF9RlRO/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i className="fa fa-inbox 
@@ -56,9 +56,9 @@ function Contatos(){
         <SwiperSlide>   
         <Grid className="card">
             <Box>
-            <img src="https://media.licdn.com/dms/image/D4D03AQEFvFSnQq_v2Q/profile-displayphoto-shrink_800_800/0/1681165091986?e=1693440000&v=beta&t=C2H-dCC0Aq9ltmJFGOZV-sjqqa_ND1dHXufK7aqBrH4" className='criador1' />
+            <img src="img/foto-patricia.jpg" className='criador1' />
                 <h3> Patricia </h3>
-                 <p className="title">Participante</p>
+                 <p className="title">Estudante de tecnologia</p>
                     <div className='redesC'> 
                     <a href="https://www.linkedin.com/in/cavalcantepatricia"target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin tamanho"></i></a>
                     <a href="https://drive.google.com/file/d/1EfH4dod9gKqDPoWy4DsfIAwCYFKD84pL/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i className="fa fa-inbox 
@@ -70,9 +70,10 @@ function Contatos(){
         <SwiperSlide>
         <Grid className="card">
             <Box>
-            <img src="https://media.licdn.com/dms/image/C5603AQEadZEkD6OMhQ/profile-displayphoto-shrink_800_800/0/1632088379848?e=1693440000&v=beta&t=q6luWrWnEqFLWzhl5FM3lVGo9V-QKvpdHXx75tVImRg" className='criador1' />
+            <img src="img/foto-thiago.jpg" className='criador1' />
                     <h3> Thiago </h3>
-                 <p className="title">Participante</p>
+                 <p className="title">
+Assistente administrativo</p>
                     <div className='redesC'> 
                     <a href="https://www.linkedin.com/in/thiago-augusto-6b5b90218/"target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin 
                     tamanho"></i></a>
