@@ -19,15 +19,15 @@ function Contatos(){
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <Swiper
         slidesPerView={3}
-        spaceBetween={2}
+        spaceBetween={1}
         className="mySwiper"
       >
         <SwiperSlide>
             <Grid className="card">
             <Box>
-                <img src="https://avatars.githubusercontent.com/u/123428616?v=4" alt="foto william" className='criador1' />
+                <img src="https://media.licdn.com/dms/image/D4D03AQFkqxPaZLJ27A/profile-displayphoto-shrink_800_800/0/1687462662427?e=1693440000&v=beta&t=G51V9m_LM6w8EStVKpzsPMO899Pw2YXHwdvHF_pNbmc" alt="foto william" className='criador1' />
                 <h3> William Reis </h3>
-                 <p className="title">Desenvolvedor Java
+                 <p className="title">Desenvolvedor FullStack
                  </p>
                 
                     <div className='redesC'> 
@@ -83,10 +83,25 @@ Assistente administrativo</p>
             </Box>
         </Grid>
         </SwiperSlide>  
+        <SwiperSlide>
+        <Grid className="card">
+            <Box>
+            <img src="img/1687986027318.jpg" className='criador1' />
+                    <h3> Vitor Lucio </h3>
+                 <p className="title">
+Assistente administrativo</p>
+                    <div className='redesC'> 
+                    <a href="https://www.linkedin.com/in/vitorlucio98/"target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin 
+                    tamanho"></i></a>
+                    <a href="https://drive.google.com/file/d/1AprsxF_paxNEd-S4jn-R8ITMqjtgo8pf/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i className="fa fa-inbox 
+                    tamanho"></i></a>
+                    </div> 
+            </Box>
+        </Grid>
+        </SwiperSlide>  
         </Swiper>      
     </Grid>
     </Grid>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 </Grid>
         </>
     )

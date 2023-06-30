@@ -1,13 +1,12 @@
 .outlinedButton {
-  border-color: #7ca6c06d !important;
   color: #ffffffb4 !important;
   background-color: #7ca6c06d !important;
-  font-size: 15px !important;
+  font-size: 17px !important;
   font-family:'Courier New', Courier, monospace !important;
 }
 .outlinedButton:hover {
   border-color: #7ca6c06d !important;
-  color: #ffffffb4 !important;
+  color: #ffffff7f !important;
   background-color: #7ca6c06d !important;
 }
 .cursor {
@@ -18,7 +17,7 @@
   
 }
 .nome{
-  margin-left: 13vh !important;
+  margin-left: 13vh ;
   color: whitesmoke;
   font-family:'Times New Roman', Times, serif !important;
 }
@@ -36,10 +35,26 @@
 .nav-estrutura{
   display: flex;
   justify-content:space-between;
-  background-color: #ffffff00
 }
 @media screen and (max-width: 992px) {
   .nome{
-    margin-left: 1vh !important;
+    margin-left: 1vh ;
+}
+}
+@media screen and (max-width: 412px) {
+  .nav-estrutura{
+    justify-content:flex-start;
+  }
+  .nome{
+    margin-left: 25px ;
+}
+.menu-nav{
+  margin-left:5vh ;
+}
+.img{
+  width: 50px;
+}
+.outlinedButton{
+  font-size: 17px !important;
 }
 }

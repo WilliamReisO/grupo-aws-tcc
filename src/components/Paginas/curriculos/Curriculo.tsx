@@ -30,13 +30,13 @@ import "swiper/css/pagination";
         </SwiperSlide>
         <SwiperSlide ><a href="https://drive.google.com/file/d/1RVyhR5gf0tCdkfk7e0UIMBB0Q4Nmh6Qe/view?usp=sharing" target="_blank" rel="noopener noreferrer"><img src="img/Curriculo William.png" alt="William"/></a>
         </SwiperSlide>
-        <SwiperSlide >Curriculo Vitor </SwiperSlide>
-        <SwiperSlide ><a href="https://drive.google.com/file/d/1-fBVXwcjuu2DZpIvlQ55K2R53sLCIdVy/view?usp=sharing" target="_blank" rel="noopener noreferrer"><img src="img/Modelo-de-Currriculo.pdf.png" alt="patricia" width={150}/></a>
+        <SwiperSlide ><a href="https://drive.google.com/file/d/1AprsxF_paxNEd-S4jn-R8ITMqjtgo8pf/view?usp=sharing" target="_blank" rel="noopener noreferrer"><img src="/public/img/vitor-lucio-Currriculo.pdf" alt="Vitor" width={150}/></a></SwiperSlide>
+        <SwiperSlide ><a href="https://drive.google.com/file/d/1-fBVXwcjuu2DZpIvlQ55K2R53sLCIdVy/view?usp=sharing" target="_blank" rel="noopener noreferrer"><img src="img/Modelo-de-Currriculo.pdf.png" alt="claudinho" width={150}/></a>
         </SwiperSlide>
      </Swiper>
       </Grid>
       <Box className="indica"><Typography className='txt'>
-        Click Sobre o Curriculo melhor visualização 
+        Click para melhor visualização 
         </Typography></Box>
       </Grid>
      </Grid>

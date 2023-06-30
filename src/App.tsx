@@ -2,7 +2,6 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css'
 import Contatos from './components/Paginas/contatos/Contato';
 import Curriculo from './components/Paginas/curriculos/Curriculo';
-import Inicial from './components/Paginas/home/Home';
 import { Grid, Typography } from '@mui/material';
 import NavBar from './components/Estaticos/navbar/Navbar';
 
@@ -21,7 +20,7 @@ function App() {
               <Route path="/contatos" element=
                 {<Contatos />} />
               <Route path="/" element=
-                {<Inicial />} />
+                {<Contatos />} />
               <Route path="/curriculo" element=
                 {<Curriculo />} />
             </Routes>
@@ -29,7 +28,7 @@ function App() {
         </Router>
         <Grid className='footer'>
           <Typography id='assina'>
-            Feito por :  William Reis 
+            William Reis 
           </Typography>
         </Grid>
       </Grid>
