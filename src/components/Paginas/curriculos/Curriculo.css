@@ -1,7 +1,7 @@
 .rectangle-22{
-margin-top: 50px;
-width: 490px;
-height: 640px;
+margin-top: 40px;
+width: 1000px;
+height: 540px;
 flex-shrink: 0;
 border-radius: 10px;
 background: #ffffff53 !important;
@@ -26,8 +26,8 @@ justify-content: center;
   flex-direction: column !important;
 }
 .swiper1 {
-  width: 600px !important;
-  height: 700px !important;
+  width: 900px ;
+  height: 700px ;
 }
 
 .swiper-slide {
@@ -57,18 +57,34 @@ justify-content: center;
 @media screen and (max-width: 992px) {
 .rectangle-22{
   width: 510px;
-  height: 710px;
-  margin-left: 2% ;
-  margin-top: 20px;
+  height: 510px;
+  margin-left: 0% ;
+  margin-top: 70px;
+}
+@media screen and (max-width: 980px) {
+.rectangle-22{
+  width: 810px;
+  height: 600px;
+  margin-left: 0% ;
+  margin-top: 160px;
 }
 
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 440px) {
   .rectangle-22{
     width: 410px;
-    height: 540px;
+    height: 400px;
     margin-left: 0% ;
-    margin-top: 120px;
+    margin-top: 160px;
   }
  
+}
+@media screen and (max-width: 411px) {
+  .rectangle-22{
+    width: 370px;
+    height: 330px;
+    margin-left: 0% ;
+    margin-top: 90px;
+  }
+}
 }

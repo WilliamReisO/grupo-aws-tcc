@@ -26,7 +26,7 @@ function Contatos(){
             <Grid className="card">
             <Box>
                 <img src="https://media.licdn.com/dms/image/D4D03AQFkqxPaZLJ27A/profile-displayphoto-shrink_800_800/0/1687462662427?e=1693440000&v=beta&t=G51V9m_LM6w8EStVKpzsPMO899Pw2YXHwdvHF_pNbmc" alt="foto william" className='criador1' />
-                <h3> William Reis </h3>
+                <h4> William Reis </h4>
                  <p className="title">Desenvolvedor FullStack
                  </p>
                 
@@ -43,7 +43,7 @@ function Contatos(){
         <Grid className="card">
             <Box>
                 <img src="img/foto-Vitor.jpg" alt="Foto vitor"  className='criador1' />
-                <h3> Vitor Santos </h3>
+                <h4> Vitor Santos </h4>
                  <p className="title">Analista de suporte de TI</p>
                     <div className='redesC'> 
                     <a href="https://www.linkedin.com/in/vitor-santos235/"target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin tamanho"></i></a>
@@ -57,7 +57,7 @@ function Contatos(){
         <Grid className="card">
             <Box>
             <img src="img/foto-patricia.jpg" className='criador1' />
-                <h3> Patricia </h3>
+                <h4> Patricia Cavalcante </h4>
                  <p className="title">Estudante de tecnologia</p>
                     <div className='redesC'> 
                     <a href="https://www.linkedin.com/in/cavalcantepatricia"target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin tamanho"></i></a>

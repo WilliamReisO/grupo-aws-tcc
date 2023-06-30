@@ -18,6 +18,9 @@ import "swiper/css/pagination";
        
       <Grid className="rectangle-22">
       <Swiper
+        slidesPerView={2}
+        spaceBetween={1}
+        
         className="mySwiper swiper1"
       >
         <SwiperSlide ><a href="https://drive.google.com/file/d/1ugB8ers6lKMJO07QYhWGijGWZAMmYiVt/view?usp=sharing"
