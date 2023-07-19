@@ -53,20 +53,6 @@ function Contatos(){
             </Box>
         </Grid>
         </SwiperSlide> 
-        <SwiperSlide>   
-        <Grid className="card">
-            <Box>
-            <img src="img/foto-patricia.jpg" className='criador1' />
-                <h4> Patricia Cavalcante </h4>
-                 <p className="title">Estudante de tecnologia</p>
-                    <div className='redesC'> 
-                    <a href="https://www.linkedin.com/in/cavalcantepatricia"target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin tamanho"></i></a>
-                    <a href="https://drive.google.com/file/d/1EfH4dod9gKqDPoWy4DsfIAwCYFKD84pL/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i className="fa fa-inbox 
-                    tamanho"></i></a>
-                    </div> 
-            </Box>
-        </Grid>
-        </SwiperSlide>
         <SwiperSlide>
         <Grid className="card">
             <Box>
@@ -83,6 +69,20 @@ Assistente administrativo</p>
             </Box>
         </Grid>
         </SwiperSlide>  
+        <SwiperSlide>   
+        <Grid className="card">
+            <Box>
+            <img src="img/foto-patricia.jpg" className='criador1' />
+                <h4> Patricia Cavalcante </h4>
+                 <p className="title">Estudante de tecnologia</p>
+                    <div className='redesC'> 
+                    <a href="https://www.linkedin.com/in/cavalcantepatricia"target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin tamanho"></i></a>
+                    <a href="https://drive.google.com/file/d/1EfH4dod9gKqDPoWy4DsfIAwCYFKD84pL/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i className="fa fa-inbox 
+                    tamanho"></i></a>
+                    </div> 
+            </Box>
+        </Grid>
+        </SwiperSlide>
         <SwiperSlide>
         <Grid className="card">
             <Box>
